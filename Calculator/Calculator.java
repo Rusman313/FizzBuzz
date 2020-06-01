@@ -24,7 +24,7 @@ public class Calculator {
 
                 if (numberInt < 0) { // is it a negative number?
                     negativeNumbers.add(numberInt);
-                } else {
+                } else if(numberInt <= 1000) {
                     returnValue += numberInt;
                 }
             }
