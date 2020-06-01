@@ -1,5 +1,4 @@
 package Calculator;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -26,6 +25,16 @@ public class CalculatorTest {
     @Test
     public final void whenEmptyStringIsUsedThenReturnValue0(){
         Assert.assertEquals(0,Calculator.add(""));
+    }
+
+    @Test
+    public final void whenOneNumberIsUsedThenReturnValueIsSameNumber(){
+        Assert.assertEquals(3,Calculator.add("3"));
+    }
+
+    @Test
+    public final void whenTwoNumbersAreUsedReturnValueIsTheirSum(){
+        Assert.assertEquals(3+6, Calculator.add("3,6"));
     }
     
 }
