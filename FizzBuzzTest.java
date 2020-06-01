@@ -7,6 +7,7 @@ public class FizzBuzzTest {
     public void shouldExecute(){
         FizzBuzz fizzBuzz =  new FizzBuzz();
         assertEquals("1", fizzBuzz.execute(new int[] { 1 }));
+        assertEquals("1, 2, Fizz, Buzz, Fizz, Buzz, Fizz Buzz, Fizz Buzz", fizzBuzz.execute(new int[] {1,2,3,5,6,10,15,30}));
     }
 
     @Test
