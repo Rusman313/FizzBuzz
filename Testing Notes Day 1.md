@@ -99,3 +99,17 @@ TDD Requirements:
 -  don't write any production code without a failing test first
 - make each step as small and simple as possible
 - commit immediately when our test passes
+
+
+
+
+
+String Calclator
+
+Requirements:
+
+1. Create a simple sString Claculator with a method int Add(String numbers)
+2. The add method can take 0,1, or 2 numbers and returns their sum -  for an empty stirnt, it returns 0 -  example: "" would return 0, "1" would return 1, "1,2" returns 3
+3. Allow the add() to handle an unknown amount of numbers
+4. Calling add () with a negative number will throw an exception " negatives not allowed"  and the negative nmber given -  if multiple negative numbers, show them all
+5. Numbers bigger than 1000 should be ignored - add("2, 1001") should return 2
