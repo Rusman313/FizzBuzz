@@ -13,5 +13,6 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz =  new FizzBuzz();
         //String output =  fizzBuzz.processNumber(1);// if we pass this method integer will pass as a string
         assertEquals("1", fizzBuzz.processNumber(1));
+        assertEquals("2", fizzBuzz.processNumber(2));
     }
 }
