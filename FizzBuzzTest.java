@@ -17,6 +17,9 @@ public class FizzBuzzTest {
         assertEquals("Fizz", fizzBuzz.processNumber(3));
         assertEquals("Buzz", fizzBuzz.processNumber(5));
         assertEquals("Fizz", fizzBuzz.processNumber(6));
+       // assertEquals("Fizz", fizzBuzz.processNumber(9)); dont need this because test passes with out correcting fizzBuzz
+       assertEquals("Buzz", fizzBuzz.processNumber(10));
+       assertEquals("Fizz Buzz", fizzBuzz.processNumber(15));
 
     }
 }
