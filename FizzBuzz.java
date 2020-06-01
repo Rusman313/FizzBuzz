@@ -4,7 +4,7 @@ public class FizzBuzz {
     }
 
     public String processNumber(int number){
-        if (number == 3){
+        if (number % 3 == 0){ // if number is divisible by 3, return Fizz
             return "Fizz";
         }else if(number == 5){return "Buzz";}
         else{
